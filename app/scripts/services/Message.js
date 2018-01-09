@@ -27,6 +27,6 @@
     }
 
     angular
-        .module('blocChat')
+        .module('Chat-With-Me')
         .factory('Message', ['$firebaseArray', '$cookies', '$filter', Message]);
 }());

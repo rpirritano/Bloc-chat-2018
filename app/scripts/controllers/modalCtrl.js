@@ -9,6 +9,6 @@
     }
 
     angular
-        .module('blocChat')
+        .module('Chat-With-Me')
         .controller('ModalCtrl', ['$uibModal', 'Room', ModalCtrl]);
 }());

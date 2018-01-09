@@ -18,6 +18,6 @@
     }
 
     angular
-        .module('blocChat')
+        .module('Chat-With-Me')
         .factory('Room', ['$firebaseArray', Room]);
 }());

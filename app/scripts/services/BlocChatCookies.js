@@ -16,6 +16,6 @@
     }
 
     angular
-        .module('blocChat')
+        .module('Chat-With-Me')
         .run(['$cookies', '$uibModal', BlocChatCookies]);
 }());

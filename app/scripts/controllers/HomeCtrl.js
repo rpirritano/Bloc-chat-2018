@@ -28,6 +28,6 @@
     }
 
     angular
-        .module('blocChat')
+        .module('Chat-With-Me')
         .controller('HomeCtrl', ['$uibModal', 'Room', 'Message', '$cookies', HomeCtrl]);
 }());
