@@ -46,9 +46,9 @@ let routes = [
     },
     {
         method: 'GET',
-        path: '/{path*}',
+        path: 'pages/{path*}',
         handler: {
-            file: Path.join(__dirname, '/app/index.html')
+            file: Path.join(__dirname, '/app/pages')
         }
     }
 ]
